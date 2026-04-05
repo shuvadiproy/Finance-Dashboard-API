@@ -10,7 +10,7 @@
   },
   "keywords": ["finance", "backend", "express", "mongodb", "jwt", "rbac"],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "type": "commonjs",
   "dependencies": {
     "bcryptjs": "^2.4.3",

@@ -187,4 +187,4 @@ npm run seed    # Seed database with sample data
 
 ## 📄 License
 
-ISC
+MIT
