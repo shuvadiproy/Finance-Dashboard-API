@@ -82,6 +82,12 @@ app.use('/api/users', userRoutes);
 app.use('/api/records', recordRoutes);
 app.use('/api/dashboard', dashboardRoutes);
 
+// ─── Root Route ──────────────────────────────────────────────
+
+app.get('/', (req, res) => {
+  res.redirect('/api-docs');
+});
+
 // ─── Health Check ────────────────────────────────────────────
 
 /**
